@@ -13,13 +13,13 @@ TBA:
 - Rewards (also may or may not do this)
 
 ## Some screenshots
-![shop](lib/assets/shop_ss.png)\
+![shop](assets/shop_ss.png)\
 Please ignore the abundance of sardines. Those are just placeholder data :>
 
-![cart](lib/assets/cart_ss.png)
+![cart](assets/cart_ss.png)
 
-![rewards](lib/assets/rewards_ss.png)
+![rewards](assets/rewards_ss.png)
 
-![accounts](lib/assets/accounts_ss.png)
+![accounts](assets/accounts_ss.png)
 
-![about](lib/assets/about_ss.png)
+![about](assets/about_ss.png)
