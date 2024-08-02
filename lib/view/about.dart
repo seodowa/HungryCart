@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:hungrycart/app_style.dart';
 
@@ -9,6 +10,7 @@ class AboutPage extends StatefulWidget {
 }
 
 class _AboutPage extends State<AboutPage> {
+  int test = 1;
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -16,7 +18,20 @@ class _AboutPage extends State<AboutPage> {
       child: Center(
         child: Column(
           children: [
-            const Image(image: AssetImage('lib/assets/hungry_cart_logo.png')),
+            IconButton(
+                highlightColor: Colors.transparent,
+                onPressed: () {
+                  if (test % 5 == 0) {
+                    AudioPlayer().play(AssetSource('what.mp3'));
+                    test++;
+                  } else {
+                    setState(() {
+                      test++;
+                    });
+                  }
+                },
+                icon: const Image(
+                    image: AssetImage('assets/hungry_cart_logo.png'))),
             Container(
               margin: const EdgeInsets.fromLTRB(10, 0, 10, 0),
               alignment: Alignment.bottomLeft,

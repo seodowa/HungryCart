@@ -6,13 +6,13 @@ List<Map> data = [
     "productName": "Mega Sardines",
     "productDescription": "Regular Mega Sardines",
     "productPrice": 34.00,
-    "productImgPath": "lib/assets/mega-sardines-green.png"
+    "productImgPath": "assets/mega-sardines-green.png"
   },
   {
     "productName": "Mega Sardines Spicy",
     "productDescription": "Spicy Mega Sardines",
     "productPrice": 34.00,
-    "productImgPath": "lib/assets/mega-sardines-pula.png"
+    "productImgPath": "assets/mega-sardines-pula.png"
   }
 ];
 
